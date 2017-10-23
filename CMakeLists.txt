@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.8)
 project(tree_ar)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 11)
 
 if (APPLE AND EXISTS /usr/local/opt/boost)
     list(APPEND CMAKE_PREFIX_PATH "/usr/local/opt/boost")
